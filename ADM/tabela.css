@@ -1,0 +1,37 @@
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Estilos para as células do cabeçalho */
+.tabela th {
+    background-color: #f2f2f2;
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+/* Estilos para as células dos dados */
+.tabela td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+/* Alterna a cor de fundo das linhas */
+.tabela tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+.cabecalho {
+    width: 100%;
+    height: 100px;
+    margin-left: -10px;
+    margin-top: -7px;
+    padding: 10px;
+    display: flex;          
+    background: rgb(212,31,31);
+    background: linear-gradient(0deg, rgba(212,31,31,1) 26%, rgba(141,25,28,1) 100%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    align-items: center;
+  }
